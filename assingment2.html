@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <title>Document</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            border: 2px solid white;
+            height: 80px;
+            background-color: chocolate;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Lobster', cursive; 
+            
+        }
+        ul{
+            height: 60px;
+            background-color: black;
+            color: white;
+        
+        }
+        ul li{
+            display: inline;
+            margin: 23px 34px;
+            font-size: 25px;
+        }
+        form{
+            background-color: cyan;
+            border: 2px solid brown;
+
+        }
+        .container{
+            display: grid;
+            height: 100vh;
+            background-color:yellow ;
+            grid-gap: 8px 16px;
+            grid-template-columns: auto auto auto auto;
+        }
+        .item{
+            background-color: red;
+            border: 2px solid blue;  
+        }
+         img{
+            width:134px;
+            position: relative;
+            top: -433px;
+            left: 1304px;
+            animation: rotate 1s linear  infinite ;
+        } 
+        @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+            
+        }
+        .fab{
+            color: blue;
+            font-size: 46px;
+
+        }
+        .fa-whatsapp{
+            color: green;
+            font-size: 46px;
+        }
+       
+        .far{
+            color: rgb(255, 16, 16);
+            font-size: 46px;
+        }
+        footer{
+            background-color: khaki;
+            margin: 23px;
+            font-family: 'Lobster', cursive; 
+        }
+        .center{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DRAGON DHABA</h1>
+    </header>
+    <header>
+       <nav>
+           <ul>
+               <li>Home</li>
+               <li>About</li>
+               <li>Contant</li>
+           </ul>
+       </nav>
+    </header>
+    <form action="Backend.php">
+        <label for="Name">Name</label>
+    <div>
+        <input type="text"Name= "MyNAme"id="Name">
+    </div>
+    <br>
+        <label for="Email">Email</label>
+    <div>
+        <input type="text"Name="my Email"id="Email">
+    </div>
+     <br>
+        <label for="Contact">Contact</label>
+     <div>
+        <input type="number"Name="My contact"id="contact">
+    </div>
+    <br>
+        <label for="Message">Message</label>
+    <div>
+        <input type="text" name="My Message" id="Message">
+     </div>
+     <br>
+        <label for="Address">Address</label>
+    <div>
+        <input type="text" name="My address" id="Address">
+    </div>
+     <br>
+    <div>
+        <input type="Submit" value="Submit Now">
+        <input type="Reset" value="Reset Now">
+    </div>
+
+    </form>
+    <div class="container">
+        <img src="dragon2.png.png" alt=""width="134px">
+        <div class="item">1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime animi numquam autem quibusdam atque porro repudiandae similique nostrum nam at, doloribus a error perferendis vitae sed voluptate ad, sapiente reprehenderit, corrupti alias soluta! Enim?</div>
+        <div class="item">2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eaque, hic minima natus fugit sequi culpa, voluptates, nobis aperiam accusamus ipsa nihil velit?</div>
+        <div class="item">3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta est consequuntur dolores.</div>
+        <div class="item">4. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quod facere.</div>
+        <div class="item">5. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis recusandae error dolores modi nemo beatae dignissimos doloribus necessitatibus hic magni, eveniet quae nostrum. Nam cupiditate alias beatae nisi? Ab accusamus similique consectetur velit incidunt, animi vel impedit reprehenderit itaque optio id eligendi est autem iste ut dolor, tempore facilis nobis vero quod? Repellat fugit vitae unde sit in velit ipsa molestias rem earum. Dolorem maxime quasi illo.</div>
+        <div class="item">6. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem et vero officia tempore asperiores hic sunt perspiciatis eligendi beatae ea molestias, blanditiis pariatur neque optio dicta. Nulla iure corrupti laboriosam, dolorem error, veniam hic molestiae optio accusantium facilis, quas voluptatum praesentium neque quia voluptatem quaerat maiores! Temporibus reiciendis sed, reprehenderit placeat facilis voluptatum delectus laboriosam velit quisquam perspiciatis esse voluptate vero debitis nihil deleniti blanditiis sunt harum fugiat ducimus dolorum eligendi animi optio? At ad illo maxime amet quis animi cumque accusantium asperiores tenetur consequatur deserunt hic repellat quos quod, debitis nesciunt, possimus eaque, delectus consectetur atque. Quasi, nihil.</div>
+        <div class="item">8. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui rem totam iure hic aut nemo praesentium veritatis tenetur aliquid at, eaque ducimus tempora corrupti necessitatibus earum est. Quasi pariatur tempora obcaecati vitae! Omnis eius fugiat ipsum eos.</div>
+        <div class="item">9. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam placeat a, recusandae iure architecto ducimus cumque, qui corrupti voluptas, illum atque non laboriosam? Veniam, ipsam voluptatibus? Soluta quasi corrupti possimus quia, nihil fugit molestias quisquam, ab ea rem iure illum velit sequi sint labore cumque.</div>
+       
+       
+    </div>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-whatsapp"></i>
+    <i class="far fa-envelope"></i>
+    <footer>
+        <p class="center">copyright &copy; Dragondhaba3110</p>
+    </footer>
+</body>
+</html>
